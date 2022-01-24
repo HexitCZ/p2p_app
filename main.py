@@ -47,7 +47,7 @@ def update_peer_list():
             continue
         except OSError:
             return
-    print(peer_list)
+    #print(peer_list)
 
 def answer(word : str = "", success : bool = False, err_msg : str = ""):
     if success:
@@ -137,12 +137,12 @@ def main():
     listener.start()
     #region DEBUG-ONLY
     #THIS PIECE OF CODE IS FOR DEBUGGING ONLY
-    while True:
-        cmd = input("cmd:")
-        fm.log(cmd)
-        out = check_command(cmd[:12])(cmd[13:-1])
-        print(out)
-        fm.log(out)
+    #while True:
+    #    cmd = input("cmd:")
+    #    fm.log(cmd)
+   #     out = check_command(cmd[:12])(cmd[13:-1])
+   #     print(out)
+    #    fm.log(out)
 
     #endregion
 if __name__ == '__main__':
