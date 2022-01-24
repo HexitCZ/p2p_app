@@ -1,0 +1,6 @@
+{
+  "port": 65525,
+  "ip": "192.168.64.53",
+  "subnet-range": "64-64-0-255",
+  "word-dict": {"what": "co", "word": "slovo", "alarm": "budik", "microphone": "mikrofon", "marker": "fixa"}
+}

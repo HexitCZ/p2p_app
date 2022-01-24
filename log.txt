@@ -1,0 +1,7 @@
+TRANSLATEERR"That word cannot be translated in any way."
+TRANSLATESUC"co"
+TRANSLATEERR"That word cannot be translated remotely."
+TRANSLATELOC"goddess"
+TRANSLATEERR"That word cannot be translated locally."
+TRANSLATELOC"BABABOY"
+TRANSLATEERR"That word cannot be translated locally."
